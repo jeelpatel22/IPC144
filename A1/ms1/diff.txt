@@ -1,0 +1,14 @@
+In line number 73 of your output:
+The output should be:
+TEST #7 RESULT: CATS (expected result: CATS)
+                ^
+But your output is: 
+TEST #7 RESULT:  (expected result: CATS)
+                ^
+
+Unmatched character details:
+The character in column 17 is supposed to be:
+  [C] ASCII code(67)
+but you printed
+  [Space] ASCII code(32)
+

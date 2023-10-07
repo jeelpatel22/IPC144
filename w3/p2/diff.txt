@@ -1,0 +1,14 @@
+In line number 9 of your output:
+The output should be:
+Bag weight (g): 250
+                ^
+But your output is: 
+Bag weight (g): y
+                ^
+
+Unmatched character details:
+The character in column 17 is supposed to be:
+  [2] ASCII code(50)
+but you printed
+  [y] ASCII code(121)
+

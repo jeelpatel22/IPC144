@@ -1,0 +1,47 @@
+**************************************************************************
+			Assignment 1 - Milestone 3- Reflection
+
+Full Name : Jeelkumar Vinodkumar Patel
+Student ID#: 115766222
+Email 	 : jpatel391@myseneca.ca
+Section  : IPC144 (NEE)
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This 
+submitted
+piece of work is entirely of my own creation.
+**************************************************************************
+
+1)The additional three functions that are required by this milestone for construct are given below.
+
+	1st Function Prototype: int importPatients(const char* datafile, struct Patient patients[], int max);
+	Purpose:- This specific function helps us to get patients data from the provided data file "patientData.txt" and also along with this it helps us to
+	store that data into a respective variable of struct Patient.
+	Value:- I used this entire information in my program to perform different operations on data, like updating data, deleting it, inserting it, viewing it,
+	etc.
+
+	Second Function Prototype: int importAppointments(const char* datafile, struct Appointment appoints[], int max);
+	Purpose:- I have used the import function so that I get appointments details of the patients, i.e., from the appointment information file provided
+	(appointmentData.txt), and also along with this it helps us to store that data into a respective variable of Appointment structure.
+	Value:- It is mainly a valuable function, as I have used this function in my program for executing several operations on patients data, i.e., to add new
+	patients details, see their appointments, remove their appointments, etc.
+
+	Third Function Prototype: void viewAllAppointments(struct ClinicData* value);
+	Purpose:- I have used the view all function is used to view data, i.e., date, time, patient number, name, phone, etc., about patients appointments in a
+	arranged manner.
+	Value:- This function is used to see all the appointment details and all the changes made to appointment data by doing different operations on the given
+	data.
+
+2)The "addAppointment" function was introduced to perform numerous operations over the data in the programming that almost occupied 98 lines of code, and 
+I nearly conserved 50% of the lines of source code by using pattern recognition and three functions such as inputIntPositive, inputIntRange, and isEqual.
+Each one of these functions and patterns led to sections that enhance readability of the code and ease of maintenance. The first consistent pattern was in
+the time and date portion, which I solved by implementing loops to cut down the amount of lines in the code. Nevertheless, functions such as
+"inputIntPositive" are utilized to accept positive input. Inputs time, date, and month values, whereas inputIntRange guarantees that the value provided
+falls within the specified range (i.e., March has 31 days and If the user inputs 32, he will receive a message of error demanding that he adjust his input
+value).Furthermore, the very last function, "isEqual," is called in the if statement to guarantee that the numbers entered are similar (hrs, min, days,
+month etc.). These functions and pattern recognition methods makes program simpler for the reader to understand and examine for errors; without them, it
+might have been 150-180 lines of code.
+
+3)Starting this project from the first part was much easier because we worked on general and simple functions and in the first part I spent the most time on the 4 main functions and it took about 4 days and the longest and most difficult part of the second part of this project and it took the most time possible from me and I had to write about 10 or 11 functions and I tried to write at least 3 functions and it took about 6 days and I sent it late and it was in the third part of the project summary that I wrote 2 functions and It took about 3 days to fix all program errors.
+
